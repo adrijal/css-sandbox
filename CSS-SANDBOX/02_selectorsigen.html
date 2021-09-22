@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* body styling */
+        body {
+            background-color: chocolate;
+        }
+
+        /* bruges til classes */
+        .primary-heading {
+            color: darkviolet;
+        }
+
+        /* burges til ID */
+        #velkommen {
+            background-color: whitesmoke;
+        }
+
+        #velkommen,
+        #om {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        /* nested selectors */
+        #velkommen p {
+            font-size: 20px;
+        }
+        #om {
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div id="velkommen">
+        <h2 class="primary-heading">Velkommen</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut atque aliquid id quidem aliquam praesentium
+            corrupti nostrum reiciendis animi totam.</p>
+    </div>
+    <div id="om">
+        <h2>om</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio accusamus fugiat ipsum officia possimus
+            aliquid ullam deleniti error repellat voluptatem.</p>
+    </div>
+
+</body>
+
+</html>
